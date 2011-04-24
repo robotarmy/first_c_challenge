@@ -1,0 +1,53 @@
+
+Please do not share your answers with others - unless it is to ask them questions that guide them
+to the answers - this is not a memorization excercise. This is an excercise in refining understanding.
+
+
+This program is missing a line - it counts the number of times it sees a lowercase alphabet letter including
+'a' and all the way through 'z'.
+
+Questions: 
+
+   What does record_init do?
+   Why is eat_extra_input necissary?
+   How could read_char be implemented differently?
+    -- How would that change eat_extra_input?
+
+   When you enter a number at the prompt the program says and assertion is violated - What is this assertion?
+   Why is the assertion violated? 
+
+   What are assertions good for?
+
+   What line of code is missing from the program?
+
+   What are all of limitations of this program?
+	
+   How could this program be extended to support numbers?
+
+   How could this program be extended to support chinese characters? 
+
+   How could this program be extended to support the entire UNICODE character set?
+
+   Extra ;
+
+    What is a Makefile
+
+    Why does 'make' without any arguments compile the code.
+
+    Why does running 'make' once and then 'make' a second time say 'nothing to be done for `all`'?
+  
+Tips :
+
+  requires 'GNUMake' and 'GCC' and optionally 'GDB'.
+  
+  compile code:
+
+  make clean && make
+
+
+  run code in debugger:
+
+  $ gdb first
+    (gdb) run 
+   
+ 
